@@ -24,7 +24,7 @@
 			<div id="site-generator">
 				<?php do_action( 'snowberry_credits' ); ?>
                 <?php _e( 'Powered by', 'snowberry' ); ?>  <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'snowberry' ) ); ?>">WordPress</a><br>
-                <?php _e( 'Designed by', 'titansberry' ); ?> <a href="<?php echo esc_url( __( 'http://stfalcon.com/', 'snowberry' ) ); ?>" target="_blank">Titans Berlin</a>
+                <?php _e( 'Designed by', 'titansberry' ); ?> <a href="<?php echo esc_url( __( 'https://github.com/k-b/titansberry-wp-theme', 'snowberry' ) ); ?>" target="_blank">Titans Berlin</a>
 			</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->

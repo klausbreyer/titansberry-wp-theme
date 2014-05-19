@@ -3,7 +3,7 @@
 Titansberry Wordpress Theme by Klaus Breyer
 
 Simple and clean wordpress theme with nice contrast headers. Good readability of text.
-Perfect theme for the personal blogs. Based on HTML of Twenty Eleven
+Perfect theme for the personal blogs. Based on HTML of Twenty Eleven and the Snowberry Theme from stfalcon.com
 
 Titansberry, (c) Klaus Breyer
 Snowberry Theme is a derivative of Snowberry Theme, (c) stfalcom.com
