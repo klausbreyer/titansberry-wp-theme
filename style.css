@@ -14,6 +14,15 @@
  */
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
+.textwidget {
+	font-size:13px;
+}
+
+.gallery_box ul {
+	list-style-type: none;
+}
+
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -127,7 +136,7 @@ body {
 	float: right;
 	margin-right: 5%;
 	width: 20%;
-	font-size:13px;
+	font-size: 13px;
 }
 
 .entry-title{
@@ -616,7 +625,7 @@ a:hover {
 	font-size: 32px;
 	font-weight: bold;
 	line-height: 18px;
-	text-decoration: none;
+	text-decoration: none;*/
 	text-shadow:#fff 0 1px 0;
 	font-family:'Open Sans', arial, sans-serif;
 }
@@ -968,7 +977,7 @@ footer.entry-meta .sep{
 	border-bottom:1px dashed #ccc;
 	font-family:'Open sans', arial, sans-serif;
 	color:#999999;
-	font-size:12px;
+	font-size:13px;
 
 }
 .entry-meta .comments-link{
@@ -1340,7 +1349,7 @@ a:active img[class*="wp-image-"],
 }
 #author-description h2 {
 	color: #000;
-	font-size: 15px;
+	font-size:13px;
 	font-weight: bold;
 	margin: 5px 0 10px;
 }
@@ -2062,7 +2071,7 @@ section.recent-posts .other-recent-posts li:after {
 ----------------------------------------------- */
 
 .widget-area {
-	font-size: 12px;
+	font-size:13px;
 }
 .widget {
 	clear: both;
@@ -2070,7 +2079,7 @@ section.recent-posts .other-recent-posts li:after {
 }
 .widget-title {
 	color: #9a9a9a;
-	font-size: 11px;
+	font-size:13px;
 	font-weight: bold;
 	letter-spacing: 0;
 	line-height: 1;
@@ -2079,7 +2088,7 @@ section.recent-posts .other-recent-posts li:after {
 	margin: 0 0 11px 0;
 }
 .widget ul {
-	font-size: 15px;
+	font-size:13px;
 	margin: 0;
 }
 .widget ul ul {
@@ -2099,14 +2108,14 @@ section.recent-posts .other-recent-posts li:after {
 	}
 .widget ul ul li {
 	color: #777;
-	font-size: 13px;
+	font-size:13px;
 	list-style:none;
 	padding:10px 0 0 20px;
 	background:url(images/widget-list.png) 0 20px no-repeat;
 }
 .widget ul li {
 	color: #666;
-	font-size: 13px;
+	font-size:13px;
 	list-style:none;
 	padding: 0 0 12px 0;
 }
@@ -2139,7 +2148,7 @@ section.ephemera ol,
 	margin: 5px 0 0;
 }
 .widget_snowberry_ephemera .widget-entry-title {
-	font-size: 15px;
+	font-size:13px;
 	font-weight: bold;
 	padding: 0;
 }
@@ -2224,7 +2233,7 @@ section.ephemera .entry-title a span {
 }
 #comments-title a{
 	vertical-align:middle;
-	font-size:12px;
+	font-size:13px;
 	text-decoration:none;
 	border-bottom:1px dashed black;
 	color:black;
@@ -2595,7 +2604,7 @@ a.comment-reply-link > span {
 	box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
 	color: #eee;
 	cursor: pointer;*/
-	font-size: 15px;
+	font-size:13px;
 	margin: 0px 0;
 	/*padding: 5px 42px 5px 22px;*/
 	position: relative;
@@ -2967,7 +2976,7 @@ p.comment-form-comment {
 		font-size:25px;
 	}
 	#site-description{
-		font-size:12px;
+		font-size:13px;
 	}
 
 }
