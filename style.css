@@ -18,8 +18,8 @@
 	font-size:13px;
 }
 
-.gallery_box ul {
-	list-style-type: none;
+.gallery_box ul,  .gallery_box li {
+	list-style-type: none !important;
 }
 
 
