@@ -161,7 +161,8 @@ body {
 	width: auto;
 }
 .inner-page #content{
-	margin:0 34% 0 5%;
+	margin:0 0 0 5%;
+	float:left;
     width:62%;
 }
 .left-sidebar.inner-page #content{
@@ -521,6 +522,7 @@ sub {
 }
 
 /* Forms */
+input[type=email],
 input[type=text],
 input[type=password],
 textarea {
@@ -528,11 +530,11 @@ textarea {
 	/*-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
 	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
 	box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);*/
-	color: #888;
+	color: #000;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-	font-size: 13px;
+	font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 13px;
 	padding: 3px;
 	border:1px solid #c8c8c8;
@@ -1043,7 +1045,8 @@ footer.entry-meta .sep{
 .entry-content ul li{
 	list-style:none;
 	background:url(images/ul-list-slyle.gif) 0 .7em no-repeat;
-	padding-left:1.2em;
+	padding-left:0;
+/*	padding-left:1.2em;*/
 	/*margin-bottom: 0.5em;*/
 }
 .entry-content h1,
@@ -1258,7 +1261,8 @@ p img,
 	top: 7px;
 }
 #content .gallery {
-	margin: 0 auto 1.625em;
+	margin:0;
+/*	margin: 0 auto 1.625em;*/
 }
 #content .gallery a img {
 	border: none;
@@ -2124,7 +2128,7 @@ section.recent-posts .other-recent-posts li:after {
 	padding: 0 0 12px 0;
 }
 .entry-content .widget ul li {
-    padding: 0 0 0 1.2em;
+	   padding: 0 0 0 1.2em ;
 }
 .widget a {
 	font-weight: normal;

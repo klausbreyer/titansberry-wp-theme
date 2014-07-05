@@ -14,7 +14,7 @@
 			if ( $second_query->have_posts() ) : while ( $second_query->have_posts() ) : $second_query->the_post(); ?>
 				<h1 class="home_page_title entry-header"><?php the_title(); ?></h1>
 				<div class="gallery_box_single entry-content">
-					<?php the_content(); 
+					<?php 
 					$posts = get_posts( array(
 						"showposts"			=> -1,
 						"what_to_show"		=> "posts",
@@ -70,6 +70,7 @@
 							</div>
 						<?php } ?>
 					</div>
+					<?php the_content();  ?>
 					<div class="clear"></div>
 				<?php endwhile; else: ?>
 				<div class="gallery_box_single">
