@@ -12,8 +12,17 @@
 			$gllr_options = get_option( 'gllr_options' );
 			$gllr_download_link_title = addslashes( __( 'Download high resolution image', 'gallery' ) );
 			if ( $second_query->have_posts() ) : while ( $second_query->have_posts() ) : $second_query->the_post(); ?>
-				<h1 class="home_page_title entry-header"><?php the_title(); ?></h1>
+				<h1 class="entry-title"><?php the_title(); ?></h1>
 				<div class="gallery_box_single entry-content">
+					<?php if ( 1 == $gllr_options['return_link'] ) {
+						if ( 'gallery_template_url' == $gllr_options["return_link_page"] ) {
+							global $wpdb;
+							$parent = $wpdb->get_var( "SELECT $wpdb->posts.ID FROM $wpdb->posts, $wpdb->postmeta WHERE meta_key = '_wp_page_template' AND meta_value = 'gallery-template.php' AND (post_status = 'publish' OR post_status = 'private') AND $wpdb->posts.ID = $wpdb->postmeta.post_id" );	?>
+							<div class="return_link"><a href="<?php echo ( !empty( $parent ) ? get_permalink( $parent ) : '' ); ?>"><?php echo $gllr_options['return_link_text']; ?></a></div>
+						<?php } else { ?>
+							<div class="return_link"><a href="<?php echo $gllr_options["return_link_url"]; ?>"><?php echo $gllr_options['return_link_text']; ?></a></div>
+						<?php }
+					} ?>
 					<?php 
 					$posts = get_posts( array(
 						"showposts"			=> -1,
