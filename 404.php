@@ -14,7 +14,7 @@ get_header(); ?>
 
 			<article id="post-0" class="post error404 not-found">
 				<header class="entry-header">
-					<h1 class="entry-title"><?php _e( 'This is somewhat embarrassing, isn&rsquo;t it?', 'snowberry' ); ?></h1>
+					<h2 class="entry-title"><?php _e( 'This is somewhat embarrassing, isn&rsquo;t it?', 'snowberry' ); ?></h2>
 				</header>
 
 				<div class="entry-content">

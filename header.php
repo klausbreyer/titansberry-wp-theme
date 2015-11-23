@@ -36,6 +36,10 @@
 	 */
 	wp_head();
 ?>
+
+
+<!-- get_template_directory_uri() -->
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -89,6 +93,7 @@
 					else : ?>
 
 					<img src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="" />
+					<!-- <h1 class="headline">TITANS BERLIN CHEERLEADER</h1> -->
 
 
 				<?php endif; // end check for featured image or standard header ?>

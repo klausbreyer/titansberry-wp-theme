@@ -12,7 +12,7 @@
 			$gllr_options = get_option( 'gllr_options' );
 			$gllr_download_link_title = addslashes( __( 'Download high resolution image', 'gallery' ) );
 			if ( $second_query->have_posts() ) : while ( $second_query->have_posts() ) : $second_query->the_post(); ?>
-				<h1 class="entry-title"><?php the_title(); ?></h1>
+				<h2 class="entry-title"><?php the_title(); ?></h2>
 				<div class="gallery_box_single entry-content">
 					<?php if ( 1 == $gllr_options['return_link'] ) {
 						if ( 'gallery_template_url' == $gllr_options["return_link_page"] ) {
